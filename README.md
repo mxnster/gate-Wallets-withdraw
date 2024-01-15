@@ -3,16 +3,17 @@
 ## Setup bot
 1) Download ZIP and extract it to a folder
 2) Install node.js: `https://nodejs.org/en/` (LTS)
-3) Paste your proxies in `proxy.txt` (ip:port@login:password), each proxy on a new line
-4) Open folder with the bot in `cmd`
+3) Paste your settings in `config.js`
+4) Paste wallets in `wallets.txt`
+5) Open folder with the bot in `cmd`
 ```bash
 cd <path to folder with script>
 ```
-5) Install dependencies
+6) Install dependencies
 ```bash
 npm install
 ```
-6) Start
+7) Start
 ```bash
 node index
 ```
